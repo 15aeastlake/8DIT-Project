@@ -1,0 +1,31 @@
+* {
+  font-size: 1.2rem;
+  padding: 0px;
+}
+
+.wrapper {
+  display: grid;
+}
+
+.hero-img {
+  background: url(img/placeholderimg.png);
+  background-size: cover;
+}
+
+.hero-img h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nav-bar a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.nav-bar ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
