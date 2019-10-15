@@ -94,15 +94,21 @@
   grid-column: 2;
 }
 
-.howitworks-info img {
-  width: 70%;
-  height: 90%;
+.howitworks-image1 {
+  width: 50%;
+  height: 100%;
+}
+
+.howitworks-image2 {
+  width: 35%;
+  height: 85%;
+  margin-left: 5%;
 }
 
 .howitworks-info p {
-  width: 70%;
+  width: 60%;
   text-align: justify;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 .realuse-list li {
