@@ -3,7 +3,6 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: white;
 }
 
 .wrapper {
@@ -48,7 +47,7 @@
   list-style: none;
 }
 
-.index-main-info, .realuse-main-info, .howitworks-main-info {
+.index-main-info, .realuse-main-info {
   text-align: justify;
   margin: 2% 15%;
   width: 70%;
@@ -58,6 +57,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
+  margin-bottom: 2%;
 }
 
 .index-secondary-text {
@@ -70,10 +70,43 @@
 
 .index-secondary-info img {
   width: 70%;
+  height: 125%;
 }
 
 .index-secondary-info p {
   width: 70%;
   text-align: justify;
   margin-left: 30%;
+}
+
+.howitworks-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2%;
+  grid-gap: 1.5rem;
+}
+
+.howitworks-text1 {
+  grid-column: 1;
+}
+
+.howitworks-image1 {
+  grid-column: 2;
+}
+
+.howitworks-info img {
+  width: 70%;
+  height: 90%;
+}
+
+.howitworks-info p {
+  width: 70%;
+  text-align: justify;
+  margin-left: 30%;
+}
+
+.realuse-list li {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1% 0%;
 }
